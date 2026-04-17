@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Symphonie – Lunch & fika i Luleå</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="cafesymphonie.png" alt="Café Symphonie" class="nav__logo-img" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#meny">Meny</a></li>
+          <li><a href="#oppettider">Öppettider</a></li>
+          <li><a href="#om-oss">Om oss</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__content">
+      <img src="cafesymphonie.png" alt="Café Symphonie" class="hero__logo" />
+      <p class="hero__tagline">Lunch & fika · Luleå</p>
+      <p class="hero__subtitle">Fräscha sallader, smörgåsar, pajer och hembakat fika – mitt i stan</p>
+      <div class="hero__cta">
+        <a href="#meny" class="btn btn--primary">Se meny</a>
+        <a href="#oppettider" class="btn btn--outline">Öppettider</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strip -->
+  <div class="strip">
+    <div class="container strip__inner">
+      <span>🥗 Fräscha sallader</span>
+      <span class="strip__dot">·</span>
+      <span>🫕 Hembakta pajer</span>
+      <span class="strip__dot">·</span>
+      <span>🥪 Smörgåsar & mackor</span>
+      <span class="strip__dot">·</span>
+      <span>☕ Kaffe & te</span>
+    </div>
+  </div>
+
+  <!-- Meny -->
+  <section id="meny" class="section section--light">
+    <div class="container container--narrow">
+      <span class="section__label">Dagens utbud</span>
+      <h2 class="section__title">Meny</h2>
+      <p class="section__desc">Vår meny varierar med säsongens råvaror. Här är ett urval av vad som brukar serveras.</p>
+
+      <!-- Lunch -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">🍽️ Lunch</h3>
+
+        <div class="menu__cards">
+          <div class="menu__card menu__card--featured">
+            <span class="menu__tag">Populär</span>
+            <h4>Dagens Sallad</h4>
+            <p>Fräsch sallad med säsongens grönsaker, proteinval och husmarinering. Serveras med bröd.</p>
+            <span class="menu__price">129 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Varm Paj</h4>
+            <p>Hembakad paj med fyllning som varierar dagligen – fråga personalen. Serveras med sallad.</p>
+            <span class="menu__price">119 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Smörgås / Macka</h4>
+            <p>Generöst belagd smörgås på surdegsbröd med valfritt pålägg och sallad.</p>
+            <span class="menu__price">109 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Soppa</h4>
+            <p>Dagens soppa serveras med nybakat bröd och smör. Fråga i kassan vad som tillagas idag.</p>
+            <span class="menu__price">99 kr</span>
+          </div>
+          <div class="menu__card">
+            <h4>Lunch Combo</h4>
+            <p>Valfri rätt + kaffe eller te. Bästa värdet för en komplett lunch.</p>
+            <span class="menu__price">149 kr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fika -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">🥐 Fika & Bakverk</h3>
+        <div class="menu__list">
+          <div class="menu__row"><span>Hembakad kaka (dagsvarierande)</span><span>45–55 kr</span></div>
+          <div class="menu__row"><span>Kanelbulle / Kardemummabulle</span><span>35 kr</span></div>
+          <div class="menu__row"><span>Muffins</span><span>40 kr</span></div>
+          <div class="menu__row"><span>Chokladboll</span><span>30 kr</span></div>
+          <div class="menu__row"><span>Scone med smör & sylt</span><span>45 kr</span></div>
+          <div class="menu__row"><span>Paj (bit)</span><span>55 kr</span></div>
+        </div>
+      </div>
+
+      <!-- Dryck -->
+      <div class="menu__block">
+        <h3 class="menu__block-title">☕ Dryck</h3>
+        <div class="menu__list">
+          <div class="menu__row"><span>Bryggkaffe</span><span>35 kr</span></div>
+          <div class="menu__row"><span>Espresso</span><span>35 kr</span></div>
+          <div class="menu__row"><span>Cappuccino / Latte</span><span>49 kr</span></div>
+          <div class="menu__row"><span>Te (valfri smak)</span><span>35 kr</span></div>
+          <div class="menu__row"><span>Varm choklad</span><span>45 kr</span></div>
+          <div class="menu__row"><span>Läsk / Vatten</span><span>20–25 kr</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Öppettider -->
+  <section id="oppettider" class="section section--warm">
+    <div class="container container--narrow">
+      <span class="section__label">Vi är öppna</span>
+      <h2 class="section__title">Öppettider</h2>
+      <div class="hours__table">
+        <div class="hours__row">
+          <span class="hours__day">Måndag – Fredag</span>
+          <span class="hours__divider"></span>
+          <span class="hours__time">10:30 – 14:00</span>
+        </div>
+        <div class="hours__row hours__row--closed">
+          <span class="hours__day">Lördag</span>
+          <span class="hours__divider"></span>
+          <span class="hours__time hours__time--closed">Stängt</span>
+        </div>
+        <div class="hours__row hours__row--closed">
+          <span class="hours__day">Söndag</span>
+          <span class="hours__divider"></span>
+          <span class="hours__time hours__time--closed">Stängt</span>
+        </div>
+      </div>
+      <p class="hours__note">Lunchcafé öppet vardagar</p>
+    </div>
+  </section>
+
+  <!-- Om oss -->
+  <section id="om-oss" class="section section--light">
+    <div class="container container--narrow">
+      <span class="section__label">Vår historia</span>
+      <h2 class="section__title">Om oss</h2>
+      <div class="about__body">
+        <p>Café Symphonie är ett centralt beläget lunchcafé på Skomakargatan i Luleå, där trivseln och maten alltid kommer i första hand. Sedan vi öppnade har vi fokuserat på enkel, äkta mat lagad med omsorg.</p>
+        <p>Hos oss kan du njuta av fräscha sallader, hembakta pajer och generösa smörgåsar – allt tillagat från grunden varje dag. Och naturligtvis ett gott kaffe och fika till det.</p>
+        <p>Vi välkomnar dig varje vardag för lunch eller en stunds fika i lugn och ro.</p>
+      </div>
+      <div class="about__trio">
+        <div class="about__item">
+          <span class="about__icon">🥗</span>
+          <strong>Fräsch lunch</strong>
+          <span>Sallader, pajer & soppor</span>
+        </div>
+        <div class="about__item">
+          <span class="about__icon">🏠</span>
+          <strong>Hembakat</strong>
+          <span>Allt lagat från grunden</span>
+        </div>
+        <div class="about__item">
+          <span class="about__icon">😌</span>
+          <strong>Lugn miljö</strong>
+          <span>Trivsamt och centralt</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="section section--deep">
+    <div class="container container--narrow">
+      <span class="section__label section__label--light">Hitta oss</span>
+      <h2 class="section__title section__title--light">Kontakt</h2>
+      <div class="contact__grid">
+        <div class="contact__item">
+          <div class="contact__icon">📍</div>
+          <div>
+            <strong>Adress</strong>
+            <p>Skomakargatan 10<br>972 33 Luleå</p>
+          </div>
+        </div>
+        <div class="contact__item">
+          <div class="contact__icon">📞</div>
+          <div>
+            <strong>Telefon</strong>
+            <p><a href="tel:+46920227771">0920-22 77 71</a></p>
+          </div>
+        </div>
+        <div class="contact__item">
+          <div class="contact__icon">🗺️</div>
+          <div>
+            <strong>Google Maps</strong>
+            <p><a href="https://maps.google.com/?q=Skomakargatan+10+Luleå" target="_blank" rel="noopener">Hitta oss på Google Maps →</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="contact__actions">
+        <a href="tel:+46920227771" class="btn btn--primary">📞 Ring oss</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Café Symphonie · Skomakargatan 10, Luleå · 0920-22 77 71</p>
+    </div>
+  </footer>
+
+</body>
+</html>
